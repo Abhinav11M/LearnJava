@@ -33,11 +33,23 @@ public class Program {
 		obj4.var1 = 30;
 		obj4.myFunction(5, 6);
 		
+		Employee1 emp1 = new Employee1();
+		emp1.fname = "A";
+		emp1.lname = "Bhai";
+		emp1.age = 20;
+		emp1.sal = 10000;
 		
+		Employee1 emp2 = new Employee1();
+		emp2.fname = "B";
+		emp2.lname = "bhai";
+		emp2.age = 25;
+		emp2.sal = 25000;
 		
+		String empname = emp1.FullName();
+		System.out.println(empname);
 		
-		
-		
+		String greetmsg = emp1.greet("Hello");
+		System.out.println(greetmsg);
 		
 		
 		
