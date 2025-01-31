@@ -51,6 +51,15 @@ public class Program {
 		String greetmsg = emp1.greet("Hello");
 		System.out.println(greetmsg);
 		
+		Employee1 objc1 = new Employee1();
+		objc1.SetAttributes("Abhinav", "Kumar", 32, 10000);
+		
+		Employee1 objc2 = new Employee1();
+		objc1.PrintEmp();
+		
+		String disp = objc1.PrintEmp1();
+		System.out.println(disp);
+		
 		
 		
 	}
